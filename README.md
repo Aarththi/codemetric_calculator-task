@@ -53,4 +53,32 @@ while True:
     except Exception as e:
         print(f"Unexpected error: {e}\n")
 
-print("Calculator closed. Goodbye!")
+print("Calculator closed. Goodbye!") 
+
+
+Output:
+Welcome to the Python Calculator!
+Type 'exit' at any time to quit.
+
+Enter first number: 2
+Enter operation (+, -, *, /): +
+Enter second number: 8
+Result: 2.0 + 8.0 = 10.0
+
+Enter first number: 4
+Enter operation (+, -, *, /): -
+Enter second number: 4
+Result: 4.0 - 4.0 = 0.0
+
+Enter first number: 5
+Enter operation (+, -, *, /): *
+Enter second number: 6
+Result: 5.0 * 6.0 = 30.0
+
+Enter first number: 6
+Enter operation (+, -, *, /): /
+Enter second number: 5
+Result: 6.0 / 5.0 = 1.2
+
+Enter first number: exit
+Calculator closed. Goodbye!
